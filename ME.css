@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'HitMeHardAndSoft';
+    src: url('fonts/HelveticaNeueLTStd-BlackExt.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'HitMeHardAndSoft';
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+    background-image: url("BILLE EILISH.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 18px;
+    color: #ff0000;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+nav {
+    background-color: #c40404;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
